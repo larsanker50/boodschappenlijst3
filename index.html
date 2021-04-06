@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boodschappenlijst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr class="header">
+            <th>Product</th>
+            <th>Prijs</th>
+            <th>Aantal</th>
+            <th>Subtotaal</th>
+        </tr>
+        <tr>
+            <td>Brood</td>
+            <td class="productPrice">1.00</td>
+            <td><input type="number" min="0" name="productQuantity"></td>
+            <td class="productTotalCost">0</td>
+        </tr>
+        <tr>
+            <td>Brocolli</td>
+            <td class="productPrice">0.99</td>
+            <td><input type="number" min="0" name="productQuantity"></td>
+            <td class="productTotalCost">0</td>
+        </tr>
+        <tr>
+            <td>Krentenbollen</td>
+            <td class="productPrice">1.20</td>
+            <td><input type="number" min="0" name="productQuantity"></td>
+            <td class="productTotalCost">0</td>
+        </tr>
+        <tr>
+            <td>Noten</td>
+            <td class="productPrice">2.99</td>
+            <td><input type="number" min="0" name="productQuantity"></td>
+            <td class="productTotalCost">0</td>
+        </tr>
+        <tr>
+            <td colspan="3" align="right">Totaal</td>
+            <td id="totalCost">0</td>
+        </tr>
+    </table>
+
+
+
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
